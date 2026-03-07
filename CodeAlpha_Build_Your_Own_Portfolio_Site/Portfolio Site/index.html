@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+   
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web-Developer</p>
+            <h1>Hi, I'm<br><span>Priyasha</span> Dutta </h1>
+        </div>
+    </div>
+</div>
+<!------------about------------->
+<div id="about">
+    <div class="containe">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+                 <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a hardworking and motivated individual with a strong foundation in Computer Science.
+                     I have good interpersonal skills. I am very willing to learn and develop new skills and I am reliable 
+                     and dependable and often seek new responsibilities within a wide range of employment areas.
+                    Motivated and detail-oriented recent graduate with strong communication and problem-solving skills.
+                    Proficient in Microsoft Office and basic data analysis. Seeking an entry - level opportunity to apply 
+                    my skills and contribute to organizational growth.  </p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end Development</span><br>Designing Webpage Interfaces</li>
+                            <li><span>C++ Programming</span><br>DSA, Algorithms and Object-Oriented Programming</li>
+                            <li><span>Data Analysis</span><br>Microsoft Excel, SQL, Python Programming</li>
+                             </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Cisco Virtual Internships</li>
+                            <li><span>2025</span><br>Smart India Hackathon</li>
+                            <li><span>2025</span><br>Oracle Academy Certification Course</li>
+                             </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-Current</span><br>Gyan Ganga Institute of Technology and Sciences<br>Bachelor of Technology<br>Specialization in Computer Science and Engineering with CGPA of 7.63.</li>
+                            <li><span>2021-2023</span><br>St.Joseph's Convent Senior Secondary School<br>Subjects in Mathematics and Science with percentile of 78.</li>
+                            <li><span>2020-2021</span><br></li>Delhi Public School North Kolkata<br>All Subjects with percentile of 75.
+                            </ul>
+                     </div>
+                 </div>
+            </div>
+    </div>
+</div>
+<!----------skills--------->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-language"></i>
+                <h2>Communication</h2>
+                <p>Strong verbal and written communication skills with the 
+                ability to convey information clearly and effectively.
+                Strong presentation skills and active listening.</p>
+                <a href="#">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>C++ Programming</h2>
+                <p>Proficient in C++ programming with a strong understanding 
+                    of data structures and algorithms and concepts of Object-oriented 
+                    design and also Exception Handling.</p>
+                <a href="#">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Front-end Development</h2>
+                <p>Proficient in creating responsive and interactive user interfaces using 
+                HTML, CSS, and JavaScript and also react. Technical skills like HTML5,CSS3,and Javascript.
+                Improved website load speed by 30%-40%.</p>
+                <a href="#">Learn more</a>
+
+            </div>
+        
+        </div>
+    </div>
+</div>
+<!-------projects-------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/img3.jpg">
+                <div class="layer">
+                    <h3>Cisco Virtual Internship</h3>
+                    <p>Certificates issued in Exploring Network with
+                    Cisco Packet Tracer, Introduction to Cybersecurity,
+                    Cybersecurity Essentials, Getting Started with Cisco Packet Tracer,
+                    Junior Cybersecurity Analyst Career Path</p>
+                    <a href="images/Cisco Virtual Internship.pdf" download><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/img2.jpg">
+                <div class="layer">
+                    <h3>Smart India Hackathon</h3>
+                    <p>Participated in Smart India Hackathon with problem statement of 
+                    "AI-Driven Public Health Chatbot for Disease Awareness." </p>
+                    <a href="images/SIH project.pptx" download><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/img1.jpg">
+                <div class="layer">
+                    <h3>Project-Smart Medicinal Kit</h3>
+                    <p>An AI project in which a medicinal kit is enhanced with smart features.
+                    It also includes mobile app connectivity and emergency alert systems.</p>
+                    <a href="images/Smart Medicinal Kit.pptx" download><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                
+                </div>
+            </div>
+        </div> 
+        <a href="#" class="btn">See more</a>      
+    </div>
+    </div>
+    <!---------contact--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>priyashad2@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9831424952</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Download CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea rows="5" name="Message" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright © Priyasha. All rights reserved.</p>
+                    </div>
+                
+            </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbzoyKLcf2pXhB8rczvQ9W3yS6QQmtD28MYTO8MR_r5nrZDUZPJCdHuSwT_viCB552_A/exec'
+	const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then(response => response.json())
+			.then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset();
+            })
+			.catch(error => console.error('Error!', error.message))
+	})
+</script>
+    </body>
+    </html>
+    
+
+

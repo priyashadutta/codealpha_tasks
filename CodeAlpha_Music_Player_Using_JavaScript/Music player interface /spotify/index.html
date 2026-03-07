@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jpg" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Spark and Fury</h1>
+            <div class="songItemcontainer"></div>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="1">
+                <span class="songName">Believer - Imagine Dragons</span>
+                <span class="songlistplay"><span class="timestamp">03:24 <i id="1" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/2.jpg" alt="2">
+                <span class="songName">Memories - Maroon 5</span>
+                <span class="songlistplay"><span class="timestamp">03:10 <i id="2" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/3.jpg" alt="3">
+                <span class="songName">Taki Taki - Selena Gomez</span>
+                <span class="songlistplay"><span class="timestamp">04:20 <i id="3" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/4.jpg" alt="4">
+                <span class="songName">Unstoppable - Sia</span>
+                <span class="songlistplay"><span class="timestamp">03:38 <i id="4" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/5.jpg" alt="5">
+                <span class="songName">Saahiba - Darshan Raval</span>
+                <span class="songlistplay"><span class="timestamp">03:51 <i id="5" class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songBanner"></div>
+    </div>
+</div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="90" value="0">
+        <div class="icons">
+            <!---fontawesome icons-->
+            <i class="fa-solid fa-2x fa-backward-fast" id="previous"></i>
+            <i class="fa-solid fa-2x fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-fast" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="play.gif" width="42px" alt="" id="gif"> <span id="masterSongName"></span>
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="script.js"></script>
+    
+</body>
+</html>
